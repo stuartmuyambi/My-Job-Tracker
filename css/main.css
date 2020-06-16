@@ -1,3 +1,10 @@
 :root {
-    --green-primary: #5fcf80;
+    --green-100: #5fcf80;
+    --green-200: #3ac162;
+    --grey-100: #e8ebed;
+    --grey-200: #f9fafa;
+    --grey-300: #edeff0;
+    --grey-400: #dfe1e2;
+    --grey-500: #d4d9dd;
+    --grey-600: #b7c0c7;
 }
