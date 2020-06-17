@@ -16,3 +16,19 @@
     --text-color-300: #4b5658;
     --btn-grey-color: #e9ecec;
 }
+
+body {
+    background-color: var(--grey-300);
+}
+
+nav {
+    background-color: var(--grey-700);
+    padding: .7rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav span img {
+    width: 38px;
+    margin: auto;
+}
