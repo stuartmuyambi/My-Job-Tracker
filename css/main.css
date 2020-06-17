@@ -15,10 +15,12 @@
     --text-color-200: #7b8b8e;
     --text-color-300: #4b5658;
     --btn-grey-color: #e9ecec;
+    --border-radius: .3rem;
 }
 
 body {
     background-color: var(--grey-300);
+    margin: 0;
 }
 
 nav {
@@ -29,6 +31,14 @@ nav {
 }
 
 nav span img {
-    width: 38px;
+    width: 2.5rem;
     margin: auto;
+}
+
+.form-container {
+    background-color: #fff;
+    margin: 2rem .9rem;
+    padding: 2rem .9rem;
+    border-radius: var(--border-radius);
+    border-bottom: 0.155rem solid var(--grey-400);
 }
