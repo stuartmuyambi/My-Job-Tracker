@@ -76,7 +76,7 @@ nav span img {
     margin: 2rem .9rem;
     padding: 2rem .9rem;
     border-radius: var(--border-radius-200);
-    border-bottom: 0.155rem solid var(--grey-400);
+    border-bottom: 0.186rem solid var(--grey-400);
 }
 
 .input-container {
@@ -95,11 +95,20 @@ nav span img {
 .input-container input {
     background-color: var(--grey-100);
     font-family: var(--font-medium);
-    color: var(--text-color-300);
+    color: var(--text-color-200);
     border: none;
     width: 100%;
     font-size: 0.89rem;
     outline: none;
+}
+
+.input-container input:focus {
+    background-color: #fff;
+}
+
+.input-container:focus-within {
+    box-shadow: 0 0 0 0.19rem var(--grey-400);
+    background-color: #fff;
 }
 
 .input-container,
