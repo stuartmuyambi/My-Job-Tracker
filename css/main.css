@@ -42,3 +42,15 @@ nav span img {
     border-radius: var(--border-radius);
     border-bottom: 0.155rem solid var(--grey-400);
 }
+
+.input-container {
+    display: flex;
+    background-color: var(--grey-100);
+    margin: .7rem 0;
+    height: 2.4rem;
+}
+
+.input-container input {
+    background-color: var(--grey-100);
+    border: none;
+}
