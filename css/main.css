@@ -14,6 +14,7 @@
     --text-color-100: #b2bbbd;
     --text-color-200: #7b8b8e;
     --text-color-300: #4b5658;
+    --text-color-400: #444f51;
     --btn-grey-color: #e9ecec;
     --border-radius-100: .188rem;
     --border-radius-200: .3rem;
@@ -36,11 +37,25 @@
     src: url('../fonts/gotham-rounded/GothamRounded-Bold.otf');
 }
 
+/* pseudo elements */
+::selection {
+    background-color: #b0cee1;
+    color: var(--text-color-300);
+}
+
+::placeholder {
+    color: var(--text-color-400);
+}
+
+/* Main styles */
 body {
     margin: 0;
     background-color: var(--grey-300);
     font-family: var(--font-normal);
+    color: var(--text-color-200);
 }
+
+/* navigation styles */
 
 nav {
     background-color: var(--grey-700);
@@ -53,6 +68,8 @@ nav span img {
     width: 2.5rem;
     margin: auto;
 }
+
+/* form styles */
 
 .form-container {
     background-color: #fff;
@@ -67,15 +84,21 @@ nav span img {
     background-color: var(--grey-100);
     margin: .7rem 0;
     padding-left: .8rem;
-    height: 2.5rem;
+    height: 2.6rem;
+}
+
+.form-icon {
+    width: .95rem;
+    margin-right: 0.4rem;
 }
 
 .input-container input {
     background-color: var(--grey-100);
-    font-family: var(--font-normal);
+    font-family: var(--font-medium);
+    color: var(--text-color-300);
     border: none;
     width: 100%;
-    font-size: 0.938rem;
+    font-size: 0.89rem;
     outline: none;
 }
 
