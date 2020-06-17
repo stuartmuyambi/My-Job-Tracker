@@ -107,7 +107,8 @@ nav span img {
 }
 
 .input-container:focus-within {
-    box-shadow: 0 0 0 0.19rem var(--grey-400);
+    box-shadow: 0 0 0 0.06rem var(--grey-600),
+    0 0 0 0.24rem var(--grey-400);
     background-color: #fff;
 }
 
