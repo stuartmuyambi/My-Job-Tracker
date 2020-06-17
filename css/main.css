@@ -15,12 +15,31 @@
     --text-color-200: #7b8b8e;
     --text-color-300: #4b5658;
     --btn-grey-color: #e9ecec;
-    --border-radius: .3rem;
+    --border-radius-100: .188rem;
+    --border-radius-200: .3rem;
+    --font-normal: 'Gotham Book';
+    --font-medium: 'Gotham Medium';
+    --font-bold: 'Gotham Bold';
+}
+
+/* Custom Fonts */
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('../fonts/gotham-rounded/GothamRounded-Book.otf');
+}
+@font-face {
+    font-family: 'Gotham Medium';
+    src: url('../fonts/gotham-rounded/GothamRoundedMedium_21022.ttf');
+}
+@font-face {
+    font-family: 'Gotham Bold';
+    src: url('../fonts/gotham-rounded/GothamRounded-Bold.otf');
 }
 
 body {
-    background-color: var(--grey-300);
     margin: 0;
+    background-color: var(--grey-300);
+    font-family: var(--font-normal);
 }
 
 nav {
@@ -39,7 +58,7 @@ nav span img {
     background-color: #fff;
     margin: 2rem .9rem;
     padding: 2rem .9rem;
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-200);
     border-bottom: 0.155rem solid var(--grey-400);
 }
 
@@ -47,10 +66,20 @@ nav span img {
     display: flex;
     background-color: var(--grey-100);
     margin: .7rem 0;
-    height: 2.4rem;
+    padding-left: .8rem;
+    height: 2.5rem;
 }
 
 .input-container input {
     background-color: var(--grey-100);
+    font-family: var(--font-normal);
     border: none;
+    width: 100%;
+    font-size: 0.938rem;
+    outline: none;
+}
+
+.input-container,
+.input-container input {
+    border-radius: var(--border-radius-100);
 }
