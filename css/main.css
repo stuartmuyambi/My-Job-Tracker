@@ -135,7 +135,7 @@ nav span img {
     color: #fff;
     border: none;
     border-radius: var(--border-radius-100);
-    padding: .7rem;
+    padding: .7rem 3rem;
     margin-bottom: 1.4rem;
     transition: background-color .3s;
 }
@@ -161,4 +161,17 @@ nav span img {
 
 .form-link:hover {
     color: var(--green-200);
+}
+
+/* media queries */
+@media (min-width: 440px) {
+    .btn {
+        margin-bottom: 0;
+    }
+    .input-submit {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 2.5rem;
+    }
 }
