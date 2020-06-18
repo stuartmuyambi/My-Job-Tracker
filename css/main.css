@@ -73,8 +73,8 @@ nav span img {
 
 .form-container {
     background-color: #fff;
-    margin: 1rem .9rem 2rem;
-    padding: 2rem .9rem;
+    margin: 3rem .9rem 2rem;
+    padding: .1rem .9rem  2rem;
     border-radius: var(--border-radius-200);
     border-bottom: 0.186rem solid var(--grey-400);
 }
@@ -82,7 +82,7 @@ nav span img {
 .input-container {
     display: flex;
     background-color: var(--grey-100);
-    margin: .7rem 0;
+    margin: .8rem 0;
     padding-left: .8rem;
     height: 2.6rem;
 }
@@ -95,7 +95,6 @@ nav span img {
 .form-heading {
     text-align: center;
     font-family: var(--font-medium);
-    margin: 2rem 0 0 0;
     font-size: 1.5rem;
 }
 
@@ -149,13 +148,14 @@ nav span img {
 .btn:focus {
     box-shadow: 0 0 0 0.07rem #57c177,
     0 0 0 0.24rem #5fcf806e;
+    outline: none;
 }
 
 .form-link {
     text-decoration: none;
     color: var(--text-color-200);
     font-size: 0.89rem;
-    align-self: flex-end;
+    align-self: center;
     transition: color .3s;
 }
 
