@@ -164,7 +164,7 @@ nav span img {
 }
 
 /* media queries */
-@media (min-width: 440px) {
+@media (min-width: 414px) {
     .btn {
         margin-bottom: 0;
     }
