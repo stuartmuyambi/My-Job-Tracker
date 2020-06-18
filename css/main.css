@@ -178,10 +178,29 @@ nav span img {
         align-items: center;
         margin-top: 2.5rem;
     }
+
+    .form-container {
+        padding: 0.1rem 1.3rem 2rem;
+    }
 }
 
 @media (min-width: 500px) {
+    .main-container {
+        margin: 0 1rem;
+    }
     .form-container {
         margin: 3rem auto 2rem;
+        padding: 0.1rem 1.7rem 2rem;
+        border-bottom: 0.187rem solid var(--grey-400);
+    }
+}
+
+@media (min-width: 768px) {
+    .form-heading {
+        font-size: 1.7rem;
+    }
+
+    .form-container {
+        max-width: 500px;
     }
 }
