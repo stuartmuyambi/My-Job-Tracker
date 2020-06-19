@@ -111,6 +111,7 @@ nav span img {
     font-size: 0.89rem;
     outline: none;
     align-self: stretch;
+    box-shadow: none;
 }
 
 .input-container input:focus {
@@ -122,8 +123,7 @@ nav span img {
     background-color: #fff;
 }
 
-.input-container,
-.input-container input {
+.input-container {
     border-radius: var(--border-radius-100);
 }
 
@@ -191,7 +191,8 @@ nav span img {
     .form-container {
         margin: 3rem auto 2rem;
         padding: 0.1rem 1.7rem 2rem;
-        border-bottom: 0.187rem solid var(--grey-400);
+    border-bottom: .1rem solid var(--grey-400);
+
     }
 }
 
@@ -201,6 +202,7 @@ nav span img {
     }
 
     .form-container {
-        max-width: 500px;
-    }
+    border-bottom: .19rem solid var(--grey-400);
+    max-width: 500px;
+}
 }
