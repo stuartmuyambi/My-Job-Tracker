@@ -190,7 +190,7 @@ nav span img {
 }
 
 @media (min-width: 500px) {
-    .main-container {
+    main {
         margin: 0 1rem;
     }
     .form-container {
