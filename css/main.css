@@ -45,7 +45,7 @@
 /* pseudo elements */
 ::selection {
     background-color: #b0cee1;
-    color: var(--text-color-300);
+    color: #464b4d;
 }
 
 ::placeholder {
