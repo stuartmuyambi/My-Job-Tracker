@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/svgs/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Role Hunt | Sign In</title>
+</head>
+
+<body>
+    <nav>
+        <span><img src="images/svgs/logo.svg" alt="Role Hunt Logo"></span>
+    </nav>
+    <div class="main-container">
+        <div class="form-container">
+            <h2 class="form-heading">Create Account</h2>
+            <form action="signin.html" method="post" id="regForm">
+                <div class="input-container">
+                    <img src="images/svgs/envelope.svg" alt="Envelope Icon" class="form-icon">
+                    <input type="email" name="user-email" id="user-email" placeholder="Email Address"
+                        oninput="this.className = ''">
+                </div>
+                <div class="input-container">
+                    <img src="images/svgs/lock.svg" alt="Lock Icon" class="form-icon">
+                    <input type="password" name="user-password" id="user-password" placeholder="Password"
+                        oninput="this.className = ''">
+                </div>
+                <div class="input-submit">
+                    <button type="submit" class="btn">Sign up</button>
+                    <a href="#" class="form-link">I forgot my password</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

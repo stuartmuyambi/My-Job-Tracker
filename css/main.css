@@ -1,6 +1,7 @@
 /* Universal Styles */
 :root {
     box-sizing: border-box;
+
     --green-100: #5fcf80;
     --green-200: #3ac162;
     --grey-100: #e8ebed;
@@ -11,13 +12,17 @@
     --grey-600: #b7c0c7;
     --grey-700: #55616c;
     --grey-800: #515960;
+
     --text-color-100: #b2bbbd;
     --text-color-200: #7b8b8e;
     --text-color-300: #4b5658;
     --text-color-400: #444f51;
+
     --btn-grey-color: #e9ecec;
+
     --border-radius-100: 0.188rem;
     --border-radius-200: 0.3rem;
+    
     --font-normal: "Gotham Book";
     --font-medium: "Gotham Medium";
     --font-bold: "Gotham Bold";
@@ -99,7 +104,7 @@ nav span img {
 .form-heading {
     text-align: center;
     font-family: var(--font-medium);
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .input-container input {
