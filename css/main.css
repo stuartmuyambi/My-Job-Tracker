@@ -186,6 +186,23 @@ fieldset {
     background-color: white;
 }
 
+.copy-text {
+    color: var(--grey-600);
+    font-size: 0.8rem;
+}
+
+.sign-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.sign-footer {
+    margin-top: auto;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
 /* media queries */
 @media (min-width: 414px) {
     .btn {
