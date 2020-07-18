@@ -105,7 +105,7 @@ nav span img {
 form {
     background-color: #fff;
     margin: 3rem 0.9rem 2rem;
-    padding: 2rem 0.9rem;
+    padding: 1.3rem 0.9rem 2rem;
     border: none;
     border-radius: var(--border-radius-200);
     border-bottom: 0.186rem solid var(--grey-400);
@@ -124,20 +124,21 @@ form {
 }
 
 .form-icon {
-    width: 0.95rem;
+    width: 0.85rem;
     /* margin-right: 0.4rem; */
 }
 
 fieldset {
     border: none;
     margin: 0;
-    padding: .2rem;
+    padding: .3rem;
 }
 
-legend {
+.form-heading {
     text-align: center;
     font-family: var(--font-medium);
     font-size: 1.4rem;
+    margin: 0 0 1.25rem 0;
 }
 
 .input-container input {
@@ -267,7 +268,7 @@ legend {
 }
 
 @media (min-width: 768px) {
-    legend {
+    .form-heading {
         font-size: 1.7rem;
     }
 
