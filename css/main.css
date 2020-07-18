@@ -159,7 +159,7 @@ fieldset {
 }
 
 .input-container:focus-within {
-    box-shadow: 0 0 0 0.07rem var(--grey-600), 0 0 0 0.24rem var(--grey-400);
+    box-shadow: 0 0 0 0.07rem var(--grey-600), 0 0 0 0.23rem var(--grey-400);
     background-color: #fff;
 }
 
