@@ -75,12 +75,11 @@ nav {
 nav span img {
     width: 1.9rem;
     margin-right: .3rem;
-    margin-top: 3px;
+    margin-top: 0.15rem;
 }
 
 .logo {
     display: flex;
-    align-items: center;
 }
 
 .logo a {
