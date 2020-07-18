@@ -280,7 +280,7 @@ fieldset {
         font-size: 1.7rem;
     }
 
-    fieldset {
+    form {
         border-bottom: .19rem solid var(--grey-400);
         max-width: 500px;
     }
