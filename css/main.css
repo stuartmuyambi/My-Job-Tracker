@@ -180,7 +180,7 @@ fieldset {
     border-radius: var(--border-radius-100);
     padding: 0.7rem 0;
     margin-bottom: 1.4rem;
-    font-size: .9rem;
+    font-size: 1rem;
     transition: background-color 0.3s;
 }
 
@@ -197,7 +197,7 @@ fieldset {
 .form-link {
     text-decoration: none;
     color: var(--text-color-200);
-    font-size: 0.89rem;
+    font-size: 0.9rem;
     align-self: center;
     transition: color 0.3s;
 }
@@ -221,7 +221,7 @@ fieldset {
 
 .copy-text {
     color: var(--grey-600);
-    font-size: 0.8rem;
+    font-size: 0.86rem;
 }
 
 .sign-container {
