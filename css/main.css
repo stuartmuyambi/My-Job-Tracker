@@ -226,15 +226,16 @@ fieldset {
 }
 
 .sign-container {
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    height: 100vh;
 }
 
 .sign-footer {
-    margin-top: auto;
-    margin-bottom: 2rem;
+    margin: auto 0.9rem .8rem;
+    padding-top: 1.5rem;
     text-align: center;
+    border-top: .1rem solid var(--grey-500);
 }
 
 .social-icons {
