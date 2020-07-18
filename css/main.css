@@ -87,6 +87,18 @@ fieldset {
     max-width: 490px;
 }
 
+.logo a {
+    color: var(--text-color-100);
+    font-family: 'Gotham Bold';
+    font-size: 1.4rem;
+    transition: color .4s;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: white;
+}
+
 .input-container {
     display: grid;
     grid-template-columns: 0.95rem 1fr;
