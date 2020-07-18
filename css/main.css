@@ -147,7 +147,7 @@ fieldset {
     color: var(--text-color-200);
     border: none;
     width: 100%;
-    font-size: 0.89rem;
+    font-size: 0.87rem;
     outline: none;
     align-self: stretch;
     box-shadow: none;
@@ -180,6 +180,7 @@ fieldset {
     border-radius: var(--border-radius-100);
     padding: 0.7rem 0;
     margin-bottom: 1.4rem;
+    font-size: .9rem;
     transition: background-color 0.3s;
 }
 
