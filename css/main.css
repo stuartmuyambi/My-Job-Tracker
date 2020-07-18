@@ -22,7 +22,7 @@
 
     --border-radius-100: 0.188rem;
     --border-radius-200: 0.3rem;
-    
+
     --font-normal: "Gotham Book";
     --font-medium: "Gotham Medium";
     --font-bold: "Gotham Bold";
@@ -33,10 +33,12 @@
     font-family: "Gotham Book";
     src: url("../fonts/gotham-rounded/GothamRounded-Book.otf");
 }
+
 @font-face {
     font-family: "Gotham Medium";
     src: url("../fonts/gotham-rounded/GothamRoundedMedium_21022.ttf");
 }
+
 @font-face {
     font-family: "Gotham Bold";
     src: url("../fonts/gotham-rounded/GothamRounded-Bold.otf");
@@ -71,9 +73,32 @@ nav {
 }
 
 nav span img {
-    width: 2.5rem;
-    margin: auto;
+    width: 1.9rem;
+    margin-right: .3rem;
+    margin-top: 3px;
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    color: var(--text-color-100);
+    font-family: 'Gotham Bold';
+    font-size: 1.4rem;
+    transition: color .4s;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.icon {
+    align-self: flex-end;
+}
+.logo a:hover {
+    color: white;
+}
+
 
 /* form styles */
 
@@ -85,18 +110,6 @@ fieldset {
     border-radius: var(--border-radius-200);
     border-bottom: 0.186rem solid var(--grey-400);
     max-width: 490px;
-}
-
-.logo a {
-    color: var(--text-color-100);
-    font-family: 'Gotham Bold';
-    font-size: 1.4rem;
-    transition: color .4s;
-    text-decoration: none;
-}
-
-.logo a:hover {
-    color: white;
 }
 
 .input-container {
@@ -221,6 +234,7 @@ fieldset {
         margin-bottom: 0;
         padding: 0.7rem 3rem;
     }
+
     .input-submit {
         display: flex;
         flex-direction: row;
@@ -237,10 +251,11 @@ fieldset {
     main {
         margin: 0 1rem;
     }
+
     fieldset {
         margin: 3rem auto 2rem;
         padding: 0.1rem 1.7rem 2rem;
-    border-bottom: .1rem solid var(--grey-400);
+        border-bottom: .1rem solid var(--grey-400);
 
     }
 }
@@ -251,7 +266,7 @@ fieldset {
     }
 
     fieldset {
-    border-bottom: .19rem solid var(--grey-400);
-    max-width: 500px;
-}
+        border-bottom: .19rem solid var(--grey-400);
+        max-width: 500px;
+    }
 }
