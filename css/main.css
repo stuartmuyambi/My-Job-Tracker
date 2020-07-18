@@ -19,6 +19,7 @@
     --text-color-400: #444f51;
 
     --btn-grey-color: #e9ecec;
+    --footer-color: #99a0a6;
 
     --border-radius-100: 0.188rem;
     --border-radius-200: 0.3rem;
@@ -220,7 +221,7 @@ fieldset {
 }
 
 .copy-text {
-    color: var(--grey-600);
+    color: var(--footer-color);
     font-size: 0.86rem;
 }
 
